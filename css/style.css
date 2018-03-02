@@ -1,0 +1,87 @@
+/*BORDER ME UP*/
+/*.container, .letter {*/
+/*    border: solid 2px blue;*/
+/*}*/
+
+/*.wordBackground {*/
+/*    border: solid 2px red;*/
+/*}*/
+
+body {
+    font-family: 'VT323', monospace;
+    font-size: 36px;
+    /*TRIANGLE WALLPAPER - http://qrohlf.com/trianglify-generator/*/
+    background: url("../img/pattern.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: initial;
+}
+
+h1 {
+    text-shadow: 2px 0px 20px gray;
+    color: white;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.letter {
+    display: inline-block;
+    text-align: left;
+    z-index: 0;
+    text-shadow: 2px 0px 20px gray;
+}
+
+.wordBackground {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.6);
+    /*filter: blur(5px);*/
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+}
+
+/*STYLE A TAGS - http://www.w3schools.com/cssref/sel_visited.asp*/
+a:visited, a:link {
+    color: #FCFCFC;
+}
+a:hover {
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: white;
+    -webkit-fill-color: white;
+    text-shadow: 2px 3px 20px white;
+}
+
+/*FOOTER*/
+.footer {
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 45px;
+}
+.foot-item a {
+    padding: 12px;
+	margin: 33px;
+	font-size: 30px;
+	text-decoration: none;
+}
+.foot-item:hover {
+	cursor: pointer;
+	-webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 2px 0px 20px white;
+    transition: all 0.2s ease-in;
+}
